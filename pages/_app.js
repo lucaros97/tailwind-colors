@@ -18,6 +18,8 @@ export default function App({ Component, pageProps }) {
         <meta property="og:type" content="article" />
         <meta property="og:title" content="Tailwind CSS Color Picker" />
         <meta property="og:description" content="A Tailwind CSS Color Picker" />
+        <meta name="twitter:image" content="/twitter-card.png">
+        <meta name="og:image" content="/twitter-card.png">
         {/* Global site tag (gtag.js) - Google Analytics */}
         <script
           async
