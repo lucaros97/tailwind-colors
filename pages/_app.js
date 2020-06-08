@@ -17,9 +17,9 @@ export default function App({ Component, pageProps }) {
         <meta property="og:url" content="https://tailwind-colors.now.sh/" />
         <meta property="og:type" content="article" />
         <meta property="og:title" content="Tailwind CSS Color Picker" />
-        <meta property="og:description" content="A Tailwind CSS Color Picker" />
         <meta name="twitter:image" content="/twitter-card.png" />
         <meta name="og:image" content="/twitter-card.png" />
+        <meta property="og:description" content="A Tailwind CSS Color Picker" />
         {/* Global site tag (gtag.js) - Google Analytics */}
         <script
           async
@@ -27,18 +27,15 @@ export default function App({ Component, pageProps }) {
         ></script>
         <script
           dangerouslySetInnerHTML={{
-            __html: `<!-- Global site tag (gtag.js) - Google Analytics -->
-              <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129796502-7"></script>
-              <script>
+            __html: `
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
               
-                gtag('config', 'UA-129796502-7');
-              </script>            
+                gtag('config', 'UA-129796502-7');            
               `,
           }}
-        />
+        ></script>
         <title>Tailwind CSS Color Picker</title>
       </Head>
       <Component {...pageProps} />
