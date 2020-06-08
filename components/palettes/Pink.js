@@ -27,7 +27,7 @@ class Red extends React.Component {
                         <div className="md:w-1/3 md:px-2">
                             {/* 100 */}
                             <CopyToClipboard text="#FFF5F7" onCopy={() => this.changeCopyState('#FFF5F7')}>
-                                <div className="flex items-center mt-5 hover:bg-gray-100 rounded-lg p-2">
+                                <div className="flex items-center mt-5 hover:bg-gray-100 rounded-lg p-2 cursor-pointer">
                                     <div className="h-24 w-24 rounded-lg shadow-inner bg-pink-100"></div> 
                                     <div className="ml-2 text-gray-800 text-xs leading-none pl-1">
                                         { this.state.copied && this.state.value == "#FFF5F7" ? 
@@ -45,7 +45,7 @@ class Red extends React.Component {
                                 </div>
                             </CopyToClipboard>
                             <CopyToClipboard text="#FED7E2" onCopy={() => this.changeCopyState('#FED7E2')}>
-                                <div className="flex items-center mt-5 hover:bg-gray-100 rounded-lg p-2">
+                                <div className="flex items-center mt-5 hover:bg-gray-100 rounded-lg p-2 cursor-pointer">
                                     <div className="h-24 w-24 rounded-lg shadow-inner bg-pink-200"></div>
                                     <div className="ml-2 text-gray-800 text-xs leading-none pl-1">
                                         { this.state.copied && this.state.value == "#FED7E2" ? 
@@ -63,7 +63,7 @@ class Red extends React.Component {
                                 </div>
                             </CopyToClipboard>
                             <CopyToClipboard text="#FBB6CE" onCopy={() => this.changeCopyState('#FBB6CE')}>
-                                <div className="flex items-center mt-5 hover:bg-gray-100 rounded-lg p-2">
+                                <div className="flex items-center mt-5 hover:bg-gray-100 rounded-lg p-2 cursor-pointer">
                                     <div className="h-24 w-24 rounded-lg shadow-inner bg-pink-300"></div>
                                     <div className="ml-2 text-gray-800 text-xs leading-none pl-1">
                                         { this.state.copied && this.state.value == "#FBB6CE" ? 
@@ -83,7 +83,7 @@ class Red extends React.Component {
                         </div>
                             <div className="md:w-1/3 md:px-2">
                                 <CopyToClipboard text="#F687B3" onCopy={() => this.changeCopyState('#F687B3')}>
-                                    <div className="flex items-center mt-5 hover:bg-gray-100 rounded-lg p-2">
+                                    <div className="flex items-center mt-5 hover:bg-gray-100 rounded-lg p-2 cursor-pointer">
                                         <div className="h-24 w-24 rounded-lg shadow-inner bg-pink-400"></div>
                                         <div className="ml-2 text-gray-800 text-xs leading-none pl-1">
                                             { this.state.copied && this.state.value == "#F687B3" ? 
@@ -101,7 +101,7 @@ class Red extends React.Component {
                                     </div>
                                 </CopyToClipboard>
                                 <CopyToClipboard text="#ED64A6" onCopy={() => this.changeCopyState('#ED64A6')}>
-                                    <div className="flex items-center mt-5 hover:bg-gray-100 rounded-lg p-2">
+                                    <div className="flex items-center mt-5 hover:bg-gray-100 rounded-lg p-2 cursor-pointer">
                                         <div className="h-24 w-24 rounded-lg shadow-inner bg-pink-500"></div>
                                         <div className="ml-2 text-gray-800 text-xs leading-none pl-1">
                                             { this.state.copied && this.state.value == "#ED64A6" ? 
@@ -119,7 +119,7 @@ class Red extends React.Component {
                                     </div>
                                 </CopyToClipboard>
                                 <CopyToClipboard text="#D53F8C" onCopy={() => this.changeCopyState('#D53F8C')}>
-                                    <div className="flex items-center mt-5 hover:bg-gray-100 rounded-lg p-2">
+                                    <div className="flex items-center mt-5 hover:bg-gray-100 rounded-lg p-2 cursor-pointer">
                                         <div className="h-24 w-24 rounded-lg shadow-inner bg-pink-600"></div>
                                         <div className="ml-2 text-gray-800 text-xs leading-none pl-1">
                                             { this.state.copied && this.state.value == "#D53F8C" ? 
@@ -139,7 +139,7 @@ class Red extends React.Component {
                             </div>
                             <div className="md:w-1/3 md:px-2">
                                 <CopyToClipboard text="#B83280" onCopy={() => this.changeCopyState('#B83280')}>
-                                    <div className="flex items-center mt-5 hover:bg-gray-100 rounded-lg p-2">
+                                    <div className="flex items-center mt-5 hover:bg-gray-100 rounded-lg p-2 cursor-pointer">
                                         <div className="h-24 w-24 rounded-lg shadow-inner bg-pink-700"></div>
                                         <div className="ml-2 text-gray-800 text-xs leading-none pl-1">
                                             { this.state.copied && this.state.value == "#B83280" ? 
@@ -157,7 +157,7 @@ class Red extends React.Component {
                                     </div>
                                 </CopyToClipboard>
                                 <CopyToClipboard text="#97266D" onCopy={() => this.changeCopyState('#97266D')}>
-                                    <div className="flex items-center mt-5 hover:bg-gray-100 rounded-lg p-2">
+                                    <div className="flex items-center mt-5 hover:bg-gray-100 rounded-lg p-2 cursor-pointer">
                                         <div className="h-24 w-24 rounded-lg shadow-inner bg-pink-800"></div>
                                         <div className="ml-2 text-gray-800 text-xs leading-none pl-1">
                                             { this.state.copied && this.state.value == "#97266D" ? 
@@ -175,7 +175,7 @@ class Red extends React.Component {
                                     </div>
                                 </CopyToClipboard>
                                 <CopyToClipboard text="#702459" onCopy={() => this.changeCopyState('#702459')}>
-                                    <div className="flex items-center mt-5 hover:bg-gray-100 rounded-lg p-2">
+                                    <div className="flex items-center mt-5 hover:bg-gray-100 rounded-lg p-2 cursor-pointer">
                                         <div className="h-24 w-24 rounded-lg shadow-inner bg-pink-900"></div>
                                         <div className="ml-2 text-gray-800 text-xs leading-none pl-1">
                                             { this.state.copied && this.state.value == "#702459" ? 
