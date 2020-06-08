@@ -18,6 +18,20 @@ export default function App({ Component, pageProps }) {
         <meta property="og:type" content="article" />
         <meta property="og:title" content="Tailwind CSS Color Picker" />
         <meta property="og:description" content="A Tailwind CSS Color Picker" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `<!-- Global site tag (gtag.js) - Google Analytics -->
+              <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129796502-7"></script>
+              <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+              
+                gtag('config', 'UA-129796502-7');
+              </script>            
+              `,
+          }}
+        />
         <title>Tailwind CSS Color Picker</title>
       </Head>
       <Component {...pageProps} />
