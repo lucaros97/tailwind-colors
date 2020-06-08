@@ -18,6 +18,11 @@ export default function App({ Component, pageProps }) {
         <meta property="og:type" content="article" />
         <meta property="og:title" content="Tailwind CSS Color Picker" />
         <meta property="og:description" content="A Tailwind CSS Color Picker" />
+        {/* Global site tag (gtag.js) - Google Analytics */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=UA-129796502-7"
+        ></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `<!-- Global site tag (gtag.js) - Google Analytics -->
